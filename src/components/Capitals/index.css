@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5e069;
+  height: 100vh;
+}
+
+.app-container {
+  background-color: #f8fafc;
+  border-radius: 16px;
+  width: 96%;
+  padding: 20px;
+  max-width: 345px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding-top: 44px;
+    padding-left: 64px;
+    padding-right: 64px;
+    max-width: 520px;
+  }
+}
+
+.head {
+  color: #2612df;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+
+.ques-container {
+  display: flex;
+  align-items: center;
+}
+
+.capitals {
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .capitals {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    width: 180px;
+    font-size: 16px;
+  }
+}
+
+.option {
+  color: #1bcf66;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 14px;
+  }
+}
+
+.label {
+  color: #070707;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 16px;
+  }
+}
+
+.country {
+  text-align: center;
+  color: #8c33df;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .country {
+    font-family: 'Roboto';
+    font-size: 24px;
+  }
+}
